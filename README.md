@@ -1,2 +1,2 @@
-Cadence и MySQL деплоятся в Докере.
-Три сервиса деплоятся локально.
+Cadence and MySQL deploy in Docker.
+ActivityWorker, WorkflowWorker and WorkflowLauncher - locally.

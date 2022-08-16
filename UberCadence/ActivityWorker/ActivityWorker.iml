@@ -176,5 +176,6 @@
     <orderEntry type="library" name="Maven: io.grpc:grpc-stub:1.28.0" level="project" />
     <orderEntry type="library" name="Maven: ch.qos.logback:logback-classic:1.2.3" level="project" />
     <orderEntry type="library" name="Maven: ch.qos.logback:logback-core:1.2.11" level="project" />
+    <orderEntry type="library" name="Maven: org.innowise:WorkflowWorker:1.0-SNAPSHOT" level="project" />
   </component>
 </module>

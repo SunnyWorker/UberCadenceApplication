@@ -1,20 +1,22 @@
 package org.innowise.entities;
 
+import javax.persistence.*;
 import java.sql.Timestamp;
-import java.time.LocalDate;
-import java.time.LocalTime;
 
+@Entity(name = "weather_reports")
+@Table(name = "weather_reports")
 public class Weather {
-    private Long id;
 
+    @Id
+    @GeneratedValue(strategy=GenerationType.AUTO)
+    private Long id;
+    @Column(name="time")
     private Timestamp currentTime;
 
+    @Column(name="air_temperature")
     private double temperature;
 
-    private String city;
-
-    public Long getId() {
-        return id;
+    public Weather() {
     }
 
     public Weather(Timestamp currentTime, double temperature, String city) {
@@ -23,7 +25,10 @@ public class Weather {
         this.city = city;
     }
 
-    public Weather() {
+    private String city;
+
+    public Long getId() {
+        return id;
     }
 
     public Timestamp getCurrentTime() {

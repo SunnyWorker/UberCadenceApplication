@@ -1,0 +1,5 @@
+org\innowise\cadence\interfaces\Activities.class
+org\innowise\cadence\implementations\WorkflowImpl.class
+org\innowise\cadence\interfaces\IWorkflow.class
+org\innowise\Main.class
+org\innowise\entities\Weather.class

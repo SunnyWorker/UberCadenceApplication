@@ -1,10 +1,5 @@
 package org.innowise.workflowlauncher;
 
-import com.uber.cadence.client.WorkflowClient;
-import com.uber.cadence.client.WorkflowClientOptions;
-import com.uber.cadence.serviceclient.ClientOptions;
-import com.uber.cadence.serviceclient.WorkflowServiceTChannel;
-import org.innowise.workflowlauncher.workflows.IWorkflow;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

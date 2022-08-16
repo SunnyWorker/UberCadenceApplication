@@ -1,7 +1,6 @@
 package org.innowise.cadence.implementations;
 
 import com.uber.cadence.workflow.Workflow;
-
 import org.innowise.cadence.interfaces.Activities;
 import org.innowise.cadence.interfaces.IWorkflow;
 import org.innowise.entities.Weather;
